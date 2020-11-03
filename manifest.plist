@@ -25,7 +25,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>7N9M2674DM.com.hyundai.shucle</string>
+				<string>com.hyundai.shucle</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
