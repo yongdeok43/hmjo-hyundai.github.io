@@ -14,6 +14,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="theme-color" content="#fafafa">
+        <script>
+            $("meta[property='og\\:title']").attr("content", '타이틀넣기' );
+            $("meta[property='og\\:url']").attr("shucle.com", '주소넣기' );                    
+            $("meta[property='og\\:description']").attr("update", '업데이트 날자' );
+            $("meta[property='og\\:image']").attr("content", '이미지주소넣기' );
+         
+            // 동적으로 페이지 타이틀 수정하기
+            $(document).ready(function() {
+                document.title = '타이틀 변경하기';
+            });
+        </script> 
     </head>
     <style>
         ul li {
@@ -36,7 +47,7 @@
             <br/>
             <h2>변경사항</h2>
             <div>
-                <h3>-------- 2020년 11월 18일 ---------</h3>
+                <h3 class="update">-------- 2020년 11월 18일 ---------</h3>
                 <b>
                     <p>초대 문자 보내기 -> 초대 링크 보내기 변경</p>
                     <p>카드정보 입력 화면 편의성 추가</p>
